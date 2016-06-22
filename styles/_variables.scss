@@ -1,0 +1,17 @@
+$white: #FFFFFB;
+$primary-color: #FFC145;
+$secondary-color: #a9a9a9;
+
+
+@mixin numberBox {
+  width: 30%;
+  height: 5rem;
+  margin: 1rem auto;
+  font-size: 2rem;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 10px;
+  background: $primary-color;
+  color: $white;
+  font-family: Avenir, sans-serif;
+}
